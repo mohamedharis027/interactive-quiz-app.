@@ -1,3 +1,4 @@
+
 const quizData = [
   {
     question: "Which language runs in a web browser?",
@@ -84,7 +85,7 @@ function nextQuestion() {
 function showResult() {
   quizEl.classList.add("hidden");
   resultEl.classList.remove("hidden");
-  scoreEl.innerText = ${score} / ${quizData.length};
+  scoreEl.innerText = `${score} / ${quizData.length}`;
 }
 
 function restartQuiz() {
